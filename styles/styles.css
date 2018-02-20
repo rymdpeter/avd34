@@ -1,0 +1,94 @@
+* {
+  box-sizing: border-box;
+}
+body{
+ font-family: 'Cormorant Garamond', Garamond, serif;
+ background-color:#fff;
+ color:#424242;
+
+}
+article {
+ max-width: 520px;
+ margin:0 auto;
+ padding: 0 32px;
+ font-size: 20px;
+ line-height:1.4;
+ font-weight:100;
+}
+h1,h2,h3,h4,h4 {
+ font-family: 'Open Sans Condensed', sans-serif;
+ line-height: 1;
+ clear:both;
+ margin:12px 0 32px;
+}
+h1.title {
+text-align: center;
+text-transform: uppercase;
+margin:64px 0;
+}
+h1 a{
+  text-decoration: none;
+  color:#424242;
+}
+h1 a:visited {
+  color:#424242;
+}
+
+h1 a:hover {
+  text-decoration: underline;
+}
+
+a {
+
+}
+p {
+ margin: 0;
+ text-align: justify;
+}
+p + p {
+ text-indent: 32px;
+}
+
+img.full {
+  margin:0 -32px;
+  width: calc(100% + 64px);
+}
+img.left {
+  max-width:50%;
+  float:left;
+  margin: 6px 12px 12px -32px;
+}
+
+img.right {
+  max-width:50%;
+  float:right;
+  margin: 6px -32px 6px 12px;
+}
+
+.back {
+  position:fixed;
+  top:0;
+  left:0;
+  display:block;
+  padding:5px;
+  background:#fff;
+}
+.about {
+  background-color:#424242;
+  color:#cecece;
+  padding:32px 0;
+  margin:32px 0 0;
+}
+
+.about p {
+  font-style: italic;
+}
+
+.about em {
+  font-style: normal;
+}
+.space {
+  width:200px;
+  margin: 32px auto;
+  border-bottom:1px dashed #cecece;
+}
