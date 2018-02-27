@@ -29,6 +29,7 @@ h1,h2,h3,h4,h4 {
  line-height: 1;
  clear:both;
  margin:12px 0 32px;
+ letter-spacing: 2px;
 }
 h1.title {
 text-align: center;
@@ -60,6 +61,7 @@ a:visted {
 p {
   margin: 0;
   text-align: justify;
+  word-wrap:break-word;
 }
 
 p + p {
