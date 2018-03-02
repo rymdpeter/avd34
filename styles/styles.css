@@ -38,10 +38,11 @@ article {
 }
 
 .article-listing {
-  flex: 0 1 300px;
+  flex: 0 1 450px;
   margin:20px;
-  padding:20px;
+  padding:0 20px 20px;
   background:#fcfcfc;
+  border:1px solid #fcfcfc;
 
   text-align: center;
 }
@@ -49,6 +50,8 @@ article {
   .article-listing.coming {
     opacity: .7;
   }
+
+
 
 .intro {
   text-align: center;
@@ -68,8 +71,8 @@ h1,h2,h3,h4,h4 {
 }
 h1.title {
 text-align: center;
-text-transform: uppercase;
 margin:64px 0;
+font-family: 'Cormorant Garamond', Garamond, serif;
 }
 h1 a{
   text-decoration: none;
@@ -104,7 +107,8 @@ p + p {
 
 img.full,
 img.left,
-img.right {
+img.right,
+img.teaser {
   margin:12px auto;
   max-width: calc(100vw - 24px);
   display:block;
@@ -118,6 +122,14 @@ img.right {
       margin:12px -64px;
       max-width: none;
       width: 728px;
+    }
+
+    img.teaser {
+      width: calc(100% + 128px);
+      max-width: none;
+      margin: 0 -64px;
+      border-radius: 2px;
+      box-shadow: 1px 1px 5px -1px #ccc;
     }
 
     img.left {
