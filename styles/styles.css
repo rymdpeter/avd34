@@ -41,8 +41,6 @@ article {
   flex: 0 1 450px;
   margin:20px;
   padding:0 20px 20px;
-  background:#fcfcfc;
-  border:1px solid #fcfcfc;
 
   text-align: center;
 }
@@ -52,6 +50,9 @@ article {
   }
 
 
+.text-center {
+  text-align: center;
+}
 
 .intro {
   text-align: center;
@@ -60,7 +61,7 @@ article {
 }
 
 .article-listing h1 {
-  margin: 32px 0;
+  margin: 32px 0 12px;
 }
 
 h1,h2,h3,h4,h4 {
@@ -129,7 +130,6 @@ img.teaser {
       max-width: none;
       margin: 0 -64px;
       border-radius: 2px;
-      box-shadow: 1px 1px 5px -1px #ccc;
     }
 
     img.left {
